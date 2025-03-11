@@ -1,7 +1,6 @@
 import { useState } from "react"
 import styles from "./Formulario.module.css";
 
-
 const Formulario = () => {
     const [peso, setPeso] = useState("");
     const [altura, setAltura] = useState("");
